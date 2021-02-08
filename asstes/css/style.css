@@ -1,0 +1,26 @@
+.col-6{
+  border: 1px solid black ;
+  border-radius: 30px;
+  margin: 0 10px 10px 10px;
+  padding: 10px; 
+  width: 50%;
+}
+
+#single-answer, #multiple-answer {
+  margin-left: 20px;
+}
+
+.quizzes {
+  width:70%;
+  margin: 0 auto;
+  display : flex;
+  justify-content: space-between;
+}
+
+.hide {
+  display: none;
+}
+
+#submit-test {
+  margin: auto;
+}

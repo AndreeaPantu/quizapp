@@ -1,0 +1,87 @@
+{ 
+  "quizzes" : [
+                {
+                "title" : "This is quiz 1",
+                "no_questions" : 2,
+                "multiple_correct_answers": "false",
+                "questions" : [
+                  {
+                    "question": "How to list only the running containers?",
+                    "answers": [
+                      "docker list",
+                      "docker ps",
+                      "docker run",
+                      "docker print"
+                    ],
+                    "correct_answers": [
+                      "false",
+                      "true",
+                      "false",
+                      "false"
+                    ],
+                    "correct_answer": "answer_2"
+                  },
+                  {
+                    "question": "How to check the current disk usage on Linux?",
+                    "answers": [
+                      "df",
+                      "usage",
+                      "uptime",
+                      "free"
+                    ],
+                    "correct_answers": [
+                      "true",
+                      "false",
+                      "false",
+                      "false"
+                    ],
+                    "correct_answer": "answer_1"
+                  }]
+                },
+                {
+                "title" : "This is quiz 2",
+                "no_questions" : 1,
+                "multiple_correct_answers": "true",
+                "questions" : [
+                  {
+                    "question": "How to list only the running containers?",
+                    "answers": [
+                      "docker list",
+                      "docker ps",
+                      "docker run",
+                      "docker print"
+                    ],
+                    "correct_answers": [
+                      "false",
+                      "true",
+                      "true",
+                      "false"
+                    ],
+                    "correct_answer": "answer_2_3"
+                  }]
+                },
+                {
+                  "title" : "This is quiz 3",
+                  "no_questions" : 1,
+                  "multiple_correct_answers": "false",
+                  "questions" : [
+                    {
+                      "question": "How to list only the running containers?",
+                      "answers": [
+                        "docker list",
+                        "docker ps",
+                        "docker run",
+                        "docker print"
+                      ],
+                      "correct_answers": [
+                        "false",
+                        "true",
+                        "false",
+                        "false"
+                      ],
+                      "correct_answer": "answer_2"
+                    }]
+                  }
+                  
+            ]
+}

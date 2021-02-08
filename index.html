@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://bootswatch.com/4/sketchy/bootstrap.min.css">
+  <link rel="stylesheet" href="/asstes/css/style.css">
+  <title>Quiz App</title>
+</head>
+<body>
+  <nav class="navbar navbar-light">
+    <h2>Quiz App</h2>
+  </nav>
+  <div class="contaier mt-3">
+    <div class="row text-center quizzes mt-5">
+      <!-- <div class="col-sm" id="1">
+        <h3>Quiz 1</h3>
+        <h2>Quiz 1 title</h2>
+        <button class="btn btn-outline-info take-quiz" id="quiz-1">Take Quiz</button>
+      </div>
+      <div class="col-sm" id="2">
+        <h3>Quiz 2</h3>
+        <h2>Quiz 2 title</h2>
+        <button class="btn btn-outline-info take-quiz" id="quiz-2">Take Quiz</button>
+      </div>
+      <div class="col-sm" id="3">
+        <h3>Quiz 3</h3>
+        <h2>Quiz 3 title</h2>
+        <button class="btn btn-outline-info take-quiz" id="quiz-3">Take Quiz</button>
+      </div> -->
+    </div>
+  </div>
+  <div class="container create-quiz mt-3 text-center">
+    <button class="btn btn-primary" id="create">Create New Quiz</button>
+  </div>
+  <div class="container create-new-quiz">
+    <div class="container create-form mt-5 text-center hide">
+        <label for="quiz-title">Quiz title</label>
+        <input type="text" id="quiz-title"><br>
+        <label for="no-questions">Number of questions</label>
+        <input type="number" id="no-questions"><br>
+        <label for="no-answers">Number of answers per question</label>
+        <input type="number" id="no-answers"><br>
+        <label for="answer-type">Answer type</label>
+        <br>
+        <input type="radio" name="answer-type" id="multiple-answer" value="MA">Multiple answer
+        <input type="radio" name="answer-type" id="single-answer" value="SA">Single answer
+        <div id="insert-alert"></div>
+        <button class="btn btn-dark mt-3" id="submit">Next</button>
+    </div>
+    <div class="container question-form mt-3 text-center">
+        <!-- <label for="questions">Question1 text</label>
+        <input type="text" id="quiz1-q1"><br>
+        <label for="answers">Question1 text</label>
+        <input type="text" id="quiz1-q1"><br> -->
+    </div>
+    <button class="btn btn-dark mt-5" id="previous">Previous</button>
+    <button class="btn btn-dark mt-5" id="cancel">Cancel</button>
+  </div>
+  <div class="container">
+    <div class="container quiz-taken">
+
+    </div>
+    <button class="btn btn-dark mt-5" id="back">Go back</button>
+  </div>
+  
+  <script src="app.js"></script>
+</body>
+</html>
